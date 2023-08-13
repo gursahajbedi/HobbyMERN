@@ -4,7 +4,7 @@ import {useState,useContext} from 'react'
 import { DataContext } from "../context/datacontext"
 import './Home.css'
 import { Delete } from "./Delete"
-import { Create } from "./create"
+import { Create } from "./Create"
 import { Edit } from "./Edit"
 import { Send } from "./Send"
 
