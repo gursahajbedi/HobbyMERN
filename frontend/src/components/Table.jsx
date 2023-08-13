@@ -16,7 +16,7 @@ export const Table =(prop)=>{
     }
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/api/responses/read').then((res)=>{
+        axios.get('https://hobbymern.onrender.com/api/responses/read').then((res)=>{
             const responses=res.data
             setData(responses);
             console.log(data)

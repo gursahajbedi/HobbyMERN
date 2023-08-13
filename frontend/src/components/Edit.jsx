@@ -11,7 +11,7 @@ export const Edit=(prop)=>{
 
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.put(`http://localhost:5000/api/responses/update/${prop.id['_id']}`,{
+        axios.put(`https://hobbymern.onrender.com/api/responses/update/${prop.id['_id']}`,{
             email:email,
             phone:mobile,
             name:name,

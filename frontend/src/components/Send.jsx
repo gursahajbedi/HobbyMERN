@@ -7,7 +7,7 @@ export const Send=(prop)=>{
     const [reciever,setreciever]=useState()
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post("http://localhost:5000/api/responses/send",{id:data,reciever:reciever})
+        axios.post("https://hobbymern.onrender.com/api/responses/send",{id:data,reciever:reciever})
         prop.setshow(false);
     }
     return(

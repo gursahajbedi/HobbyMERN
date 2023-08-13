@@ -6,7 +6,7 @@ export const Delete=(prop)=>{
     const {data,setdata}=useContext(DataContext)
 
     const handleDelete=()=>{
-        axios.post("http://localhost:5000/api/responses/delete",{'id':data}).then((res)=>{
+        axios.post("https://hobbymern.onrender.com/api/responses/delete",{'id':data}).then((res)=>{
             console.log(res)
             prop.setshow(false)
             setdata([])
